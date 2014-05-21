@@ -51,7 +51,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 
 """"""""""""""""""""""""""""""""""""""""""
-"Abolish 
+"Abolish - converts between snake_case and camelCase
 """"""""""""""""""""""""""""""""""""""""""
 Bundle 'tpope/vim-abolish'
 
