@@ -154,6 +154,7 @@ let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['php'] = 'php,html,html_minimal'
 let g:snipMate.scope_aliases['blade'] = 'php,html,html_minimal'
+let g:snipMate.scope_aliases['less'] = 'css'
 
 
 
