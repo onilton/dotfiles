@@ -56,6 +56,16 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-abolish'
 
 """"""""""""""""""""""""""""""""""""""""""
+"Better Rainbow Parentheses
+""""""""""""""""""""""""""""""""""""""""""
+"Bundle 'kien/rainbow_parentheses.vim'
+
+""""""""""""""""""""""""""""""""""""""""""
+"Rainbow Parentheses Improved
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'luochen1990/rainbow'
+
+""""""""""""""""""""""""""""""""""""""""""
 "Flake8 plugin for Vim (python)
 """"""""""""""""""""""""""""""""""""""""""
 Bundle 'nvie/vim-flake8'
@@ -92,6 +102,9 @@ Bundle 'vim-scripts/candycode.vim'
 Bundle 'altercation/vim-colors-solarized'
 
 call vundle#end()            " required
+
+"rainbow activation
+let g:rainbow_active = 1
 
 
 set termencoding=utf-8
