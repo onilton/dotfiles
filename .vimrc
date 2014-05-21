@@ -76,6 +76,16 @@ Bundle 'nvie/vim-flake8'
 Bundle 'groenewege/vim-less'
 
 """"""""""""""""""""""""""""""""""""""""""
+"Scala syntax highlight and other stuff
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'derekwyatt/vim-scala'
+
+""""""""""""""""""""""""""""""""""""""""""
+"SBT-Vim Bridge
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'ktvoelker/sbt-vim'
+
+""""""""""""""""""""""""""""""""""""""""""
 "Blade syntax highlight
 """"""""""""""""""""""""""""""""""""""""""
 Bundle 'xsbeats/vim-blade'
