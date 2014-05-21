@@ -1,0 +1,6 @@
+.*.sw[opnm]
+.DS_Store
+
+CONFIG
+
+.vim/
