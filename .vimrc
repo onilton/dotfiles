@@ -399,6 +399,15 @@ autocmd Syntax * syn match ExtraWhitespace /  \+/ containedin=ALL
 
 
 
+" Avoid scrolling when switch buffers
+" When switching buffers, preserve window view.
+if v:version >= 700
+  au BufLeave * if !&diff | let b:winview = winsaveview() | endif
+  au BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | endif
+endif
+
+
+
 filetype plugin on
 
 "Spelling (english) for git commits! :)
