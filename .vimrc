@@ -159,6 +159,8 @@ nnoremap Siw diw"0P
 nnoremap SiW diW"0P
 nnoremap Si" di""0P
 nnoremap Si' di'"0P
+nnoremap Si( di("0P
+nnoremap Si) di)"0P
 
 "nnoremap Siw ciw<C-r>0
 "nnoremap SiW ciW<C-r>0
