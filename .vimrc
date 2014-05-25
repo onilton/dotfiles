@@ -411,6 +411,10 @@ if v:version >= 700
 endif
 
 
+" Enables persistent undo http://stackoverflow.com/a/17936413
+set undofile 
+set undodir=/home/oniltonmaciel/.vimundo/
+
 
 filetype plugin on
 
