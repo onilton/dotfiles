@@ -169,7 +169,9 @@ nnoremap Si) di)"0P
 
 
 "Search_and_replace_the_word_under_the_cursor http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor
-nnoremap <Leader>s :%s/\<<C-r><C-w>\>//cg<Left><Left><Left>
+"nnoremap <Leader>s :%s/\<<C-r><C-w>\>//cg<Left><Left><Left>
+"Starting at current line http://stackoverflow.com/a/7608016/1706351
+exe 'nnoremap <Leader>s :,$s/\<<C-r><C-w>\>//gc\|1,''''-&&'.repeat('<left>',12)
 "nnoremap <Leader>sg :%s/\<<C-r><C-w>\>//g<Left><Left>
 
 
