@@ -415,16 +415,13 @@ endif
 set undofile 
 set undodir=/home/oniltonmaciel/.vimundo/
 
-
+" This is important for plugins that depends on filetype to work. (Blade
+" syntax highlight for example)
 filetype plugin on
 
 "Spelling (english) for git commits! :)
 autocmd FileType gitcommit setlocal spell
 autocmd FileType gitcommit setlocal spelllang=en
-
-
-"Enable blade syntax highlight
-"au BufRead,BufNewFile *.blade.php set filetype=blade
 
 
 "Enable iim syntax highlight
