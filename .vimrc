@@ -420,6 +420,12 @@ set undodir=/home/oniltonmaciel/.vimundo/
 " Enables cursorline, changes background of current line
 set cursorline
 
+" Map <Leader>ff to display all lines with keyword under cursor
+" and ask which one to jump to
+" Got from here:
+" https://github.com/spf13/spf13-vim/blob/2be7e6823668d62ca1063d81af7de0be7b1610e6/.vimrc#L390
+nmap <Leader>ff [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
+
 " This is important for plugins that depends on filetype to work. (Blade
 " syntax highlight for example)
 filetype plugin on
