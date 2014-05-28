@@ -415,6 +415,9 @@ endif
 set undofile 
 set undodir=/home/oniltonmaciel/.vimundo/
 
+" Enables cursorline, changes background of current line
+set cursorline
+
 " This is important for plugins that depends on filetype to work. (Blade
 " syntax highlight for example)
 filetype plugin on
