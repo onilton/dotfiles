@@ -179,6 +179,8 @@ exe 'nnoremap <Leader>s :,$s/\<<C-r><C-w>\>//gc\|1,''''-&&'.repeat('<left>',12)
 " snipMate configs
 let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
+let g:snipMate.scope_aliases.php = ''
+let g:snipMate.scope_aliases.html = ''
 let g:snipMate.scope_aliases['php'] = 'php,html,html_minimal'
 let g:snipMate.scope_aliases['blade'] = 'php,html,html_minimal'
 let g:snipMate.scope_aliases['less'] = 'css'
