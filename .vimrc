@@ -383,7 +383,7 @@ hi! gitcommitUntrackedFile ctermfg=37
 
 """highlight ExtraWhitespace cterm=underline gui=underline ctermbg=NONE guibg=NONE 
 hi! clear ExtraWhitespace 
-hi! ExtraWhitespace cterm=underline gui=underline ctermfg=236
+hi! ExtraWhitespace cterm=underline gui=underline ctermfg=235
 "242
 " 8 
 ""235
