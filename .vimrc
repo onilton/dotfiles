@@ -424,6 +424,15 @@ autocmd FileType gitcommit setlocal spell
 autocmd FileType gitcommit setlocal spelllang=en
 
 
+" Teach vim to syntax highlight Vagrantfile as ruby
+" Source: https://gist.github.com/scarolan/5782025
+" Author: Brandon Philips <brandon@ifup.org>
+augroup vagrant
+  au!
+  au BufRead,BufNewFile Vagrantfile set filetype=ruby
+augroup END
+
+
 "Enable iim syntax highlight
 au BufNewFile,BufRead *.iim setf iim
 
