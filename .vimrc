@@ -66,6 +66,11 @@ Bundle 'tpope/vim-abolish'
 Bundle 'luochen1990/rainbow'
 
 """"""""""""""""""""""""""""""""""""""""""
+"Ag integration with vim (the_silver_searcher)
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'rking/ag.vim'
+
+""""""""""""""""""""""""""""""""""""""""""
 "Flake8 plugin for Vim (python)
 """"""""""""""""""""""""""""""""""""""""""
 Bundle 'nvie/vim-flake8'
@@ -186,7 +191,11 @@ let g:snipMate.scope_aliases['blade'] = 'php,html,html_minimal'
 let g:snipMate.scope_aliases['less'] = 'css'
 
 
-
+" ag configs
+let g:agprg="ag --silent --column"
+" alias to avoid opening the first result
+" https://github.com/rking/ag.vim/issues/21#issuecomment-35540388
+ca Ag Ag!
 
 
 if $COLORTERM == 'gnome-terminal' 
