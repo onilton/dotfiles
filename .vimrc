@@ -407,9 +407,10 @@ autocmd Syntax * syn match ExtraWhitespace /  \+/ containedin=ALL
 
 " Avoid scrolling when switch buffers
 " When switching buffers, preserve window view.
+" https://github.com/garbas/vim-snipmate/issues/161#issuecomment-44583082
 if v:version >= 700
   au BufLeave * if !&diff | let b:winview = winsaveview() | endif
-  au BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | endif
+  au BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | unlet! b:winview | endif
 endif
 
 
