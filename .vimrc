@@ -284,6 +284,7 @@ autocmd Filetype sh setlocal expandtab tabstop=4 shiftwidth=4
 
 autocmd BufWritePre *.php :%s/\s\+$//e
 autocmd BufWritePre *.css :%s/\s\+$//e
+autocmd BufWritePre *.py :%s/\s\+$//e
 
 
 
