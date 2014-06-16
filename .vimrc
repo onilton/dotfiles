@@ -51,6 +51,11 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 
 """"""""""""""""""""""""""""""""""""""""""
+"Autoformat 
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'Chiel92/vim-autoformat'
+
+""""""""""""""""""""""""""""""""""""""""""
 "Abolish - converts between snake_case and camelCase
 """"""""""""""""""""""""""""""""""""""""""
 Bundle 'tpope/vim-abolish'
