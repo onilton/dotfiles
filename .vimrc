@@ -51,6 +51,11 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 
 """"""""""""""""""""""""""""""""""""""""""
+"Sideways (move function arguments) 
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'AndrewRadev/sideways.vim'
+
+""""""""""""""""""""""""""""""""""""""""""
 "Autoformat 
 """"""""""""""""""""""""""""""""""""""""""
 Bundle 'Chiel92/vim-autoformat'
@@ -353,7 +358,7 @@ map <Leader>bd :MBEbd<cr>
 "Gstatus map - also increase window size to 10+
 map <Leader>gs :Gstatus<CR><C-w>10+jjjjj<Esc><Esc>
 map <Leader>gl :execute "!git log --graph --abbrev-commit --pretty=format:\\\\\%Cred\\%h\\%Creset\\ -\\%C\\(yellow\\)\\%d\\%Creset\\ \\%s\\ \\%Cgreen\\(\\%cr\\)\\ \\%C\\(bold\\ blue\\)\\<\\%an\\>\\%Creset\\"<CR>
-map <Leader>gd :Gdiff<cr>  
+map <Leader>gd :Gsdiff<cr>
 "<Esc><Esc>
 map <Leader>gdc :Git diff --cached<cr>
 map <Leader>gr :Gread<cr>
