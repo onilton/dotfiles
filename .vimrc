@@ -159,11 +159,17 @@ set autoindent         " always set autoindenting on
 "set copyindent         " copy the previous indentation on autoindenting
 
 
+"Syntastic args for flake8 (python)
+let g:syntastic_python_flake8_args = "--max-line-length=110"
 
-
+"Autoformat args (python)
+let g:formatprg_args_expr_python = '"/dev/stdin --max-line-length=110"'
 
 "PCF
 nnoremap <silent><leader>pcf :call PhpCsFixerFixFile()<CR>
+
+nnoremap gs :SidewaysLeft<cr>
+nnoremap gS :SidewaysRight<cr>
 
 "Stamping http://vim.wikia.com/wiki/Replace_a_word_with_yanked_text
 "nnoremap S diw"0P
