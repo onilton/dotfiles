@@ -12,3 +12,5 @@
 	singlekey = true
 [advice]
 	statusHints = false
+[push] # http://stackoverflow.com/questions/948354/default-behavior-of-git-push-without-a-branch-specified
+	default = current
