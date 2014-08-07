@@ -51,6 +51,13 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 
 """"""""""""""""""""""""""""""""""""""""""
+"Qargs and Qdo 
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'henrik/vim-qargs'
+" http://thepugautomatic.com/2012/07/project-wide-search-and-replace-in-vim-with-qdo/
+" http://stackoverflow.com/questions/5686206/search-replace-using-quickfix-list-in-vim/5686810#5686810
+
+""""""""""""""""""""""""""""""""""""""""""
 "Sideways (move function arguments) 
 """"""""""""""""""""""""""""""""""""""""""
 Bundle 'AndrewRadev/sideways.vim'
