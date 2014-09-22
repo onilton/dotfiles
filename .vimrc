@@ -478,6 +478,10 @@ augroup vagrant
 augroup END
 
 
+" Disables php's complete with included files
+set complete=.,w,b,u,t
+
+
 "Enable iim syntax highlight
 au BufNewFile,BufRead *.iim setf iim
 
