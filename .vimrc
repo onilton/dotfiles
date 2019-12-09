@@ -131,9 +131,14 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'luochen1990/rainbow'
 
 """"""""""""""""""""""""""""""""""""""""""
-"Ag integration with vim (the_silver_searcher)
+"Retired/deprecated Ag integration with vim (the_silver_searcher)
 """"""""""""""""""""""""""""""""""""""""""
-Bundle 'rking/ag.vim'
+"""Bundle 'rking/ag.vim'
+
+""""""""""""""""""""""""""""""""""""""""""
+"Run your favorite search tool from Vim, with an enhanced results list. for Ag
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'mileszs/ack.vim'
 
 """"""""""""""""""""""""""""""""""""""""""
 "YouCompleteMe
@@ -461,10 +466,18 @@ nnoremap ]l :lnext<cr>
 nnoremap [l :lprev<cr>
 
 " ag configs
-let g:ag_prg="ag --silent --column"
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep --silent --column'
+  cnoreabbrev ag Ack!
+  cnoreabbrev aG Ack!
+  cnoreabbrev Ag Ack!
+  cnoreabbrev AG Ack!
+  "ca Ag Ag!
+endif
+"let g:ag_prg="ag --silent --column"
 " alias to avoid opening the first result
 " https://github.com/rking/ag.vim/issues/21#issuecomment-35540388
-ca Ag Ag!
+"ca Ag Ag!
 
 
 if $COLORTERM == 'gnome-terminal' 
