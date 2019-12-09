@@ -47,6 +47,11 @@ Bundle "tpope/vim-fugitive"
 Bundle "scrooloose/nerdtree"
 
 """"""""""""""""""""""""""""""""""""""""""
+"Ctrlp
+""""""""""""""""""""""""""""""""""""""""""
+Bundle "ctrlpvim/ctrlp.vim"
+
+""""""""""""""""""""""""""""""""""""""""""
 "Handles bracketed-paste-mode in vim (aka. automatic `:set paste`)
 """"""""""""""""""""""""""""""""""""""""""
 Bundle "ConradIrwin/vim-bracketed-paste"
