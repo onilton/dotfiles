@@ -77,6 +77,11 @@ Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'scrooloose/syntastic'
 
 """"""""""""""""""""""""""""""""""""""""""
+"Wombat color scheme
+""""""""""""""""""""""""""""""""""""""""""
+Bundle 'michalbachowski/vim-wombat256mod'
+
+""""""""""""""""""""""""""""""""""""""""""
 "Use local eslint
 """"""""""""""""""""""""""""""""""""""""""
 "Bundle 'mtscout6/syntastic-local-eslint.vim'
@@ -616,6 +621,9 @@ autocmd BufRead,BufNewFile /home/oniltonmaciel/workspace/admin/* setlocal expand
 """"""""
 
 
+""""""""""""""""""""""""
+"https://github.com/michalbachowski/vim-wombat256mod
+""""""""""""""""""""""""
 colorscheme wombat256mod
 
 
