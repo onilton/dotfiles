@@ -229,11 +229,6 @@ Bundle 'derekwyatt/vim-scala'
 Bundle 'xsbeats/vim-blade'
 
 """"""""""""""""""""""""""""""""""""""""""
-"iMacros syntax highlight
-""""""""""""""""""""""""""""""""""""""""""
-Bundle 'vim-scripts/iim.vim'
-
-""""""""""""""""""""""""""""""""""""""""""
 "Vim worksheet actually: buggy
 """"""""""""""""""""""""""""""""""""""""""
 ""Bundle 'HerringtonDarkholme/vim-worksheet'
